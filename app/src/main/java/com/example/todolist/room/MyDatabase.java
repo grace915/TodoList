@@ -8,7 +8,7 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
 @Database(version = 1, entities = {TodoItem.class})
-public abstract class MyDatabase extends RoomDatabase {
+public abstract class MyDatabase extends RoomDatabase{
 
     abstract public TodoDao todoDao();
 
